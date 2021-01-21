@@ -10,9 +10,9 @@ namespace Example1
             /*
             switch(kosul)
             {
-                case 1 : işlemi;break;
+                case 1 : yapılacak işlem kodları ; break;
             
-                default:;break;
+                default: yapılacak işlem kodları ; break; // diğer değerlerin hiç biri sağlanmaz ise default çalışır
             }
             */
             //günler(days)
@@ -48,17 +48,6 @@ namespace Example1
                     Console.WriteLine("aralık dışı veri girişi");
                     break;
             }
-
-            /*
-            if (days==1)
-            {
-                Console.WriteLine("pazartesi");
-            }
-            else
-            {
-                Console.WriteLine("hata");
-            }
-            */
 
         }
     }
