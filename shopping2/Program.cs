@@ -21,7 +21,13 @@ namespace shopping2
             odemetutari = ilktoplam;
             if (ilktoplam >= 200)
             {
-                indirim = urun2 * 25 / 100;
+                indirim = urun2 * 25 / 100; // eğer bir sayının yüzdesini hesaplama isterseniz 
+                /*
+                    yüzdesi alınacak sayı x yüzde değeri / 100
+                    100 sayısının %10 kaçtır?
+                    100x10/100 = 10 
+                    bu işlemde 100 sayısının yüzde 10'nun 10 olduğunu hesapladık
+                 */
                 odemetutari = ilktoplam - indirim;
             }
             Console.WriteLine("Ödeme tutarı: " + odemetutari);

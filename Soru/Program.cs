@@ -10,6 +10,7 @@ namespace Soru
 
             Console.WriteLine("bir sayı girin");
             int sayi = Convert.ToInt32(Console.ReadLine());
+            // % işareti sayıların bölümünde kalanı verir(mod alma işlemi yapar)
             if ((sayi % 2==0) && (sayi % 3 ==0))
             {
                 Console.WriteLine("{0} sayısı 2 ye ve 3 e kalansız bölündü",sayi);

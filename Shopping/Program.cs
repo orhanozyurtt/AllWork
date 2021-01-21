@@ -17,6 +17,7 @@ namespace Shopping
             else
             {
                 Console.WriteLine("ödeme tutarınız={0} tl  kargo=5 tl  ", tutar + 5);
+                // bu kod satırında - tutar + 5 - ifadesi tutar değişkeninde bulunan değere 5 ekleyerek parametreye gönder anlamına gelir.
             }
             
 
